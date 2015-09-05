@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67310B7B1B9A77C60090CD50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67310B7A1B9A77C60090CD50 /* AppDelegate.swift */; };
+		67310B7D1B9A77C60090CD50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67310B7C1B9A77C60090CD50 /* ViewController.swift */; };
+		67310B801B9A77C60090CD50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67310B7E1B9A77C60090CD50 /* Main.storyboard */; };
+		67310B821B9A77C60090CD50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67310B811B9A77C60090CD50 /* Images.xcassets */; };
+		67310B851B9A77C60090CD50 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67310B831B9A77C60090CD50 /* LaunchScreen.xib */; };
+		67310B911B9A77C70090CD50 /* AKM_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67310B901B9A77C70090CD50 /* AKM_AppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67310B8B1B9A77C70090CD50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67310B6D1B9A77C60090CD50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67310B741B9A77C60090CD50;
+			remoteInfo = "AKM App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67310B751B9A77C60090CD50 /* AKM App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AKM App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67310B791B9A77C60090CD50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67310B7A1B9A77C60090CD50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67310B7C1B9A77C60090CD50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67310B7F1B9A77C60090CD50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67310B811B9A77C60090CD50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		67310B841B9A77C60090CD50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		67310B8A1B9A77C70090CD50 /* AKM AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AKM AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67310B8F1B9A77C70090CD50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67310B901B9A77C70090CD50 /* AKM_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKM_AppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67310B721B9A77C60090CD50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67310B871B9A77C70090CD50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67310B6C1B9A77C60090CD50 = {
+			isa = PBXGroup;
+			children = (
+				67310B771B9A77C60090CD50 /* AKM App */,
+				67310B8D1B9A77C70090CD50 /* AKM AppTests */,
+				67310B761B9A77C60090CD50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67310B761B9A77C60090CD50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67310B751B9A77C60090CD50 /* AKM App.app */,
+				67310B8A1B9A77C70090CD50 /* AKM AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67310B771B9A77C60090CD50 /* AKM App */ = {
+			isa = PBXGroup;
+			children = (
+				67310B7A1B9A77C60090CD50 /* AppDelegate.swift */,
+				67310B7C1B9A77C60090CD50 /* ViewController.swift */,
+				67310B7E1B9A77C60090CD50 /* Main.storyboard */,
+				67310B811B9A77C60090CD50 /* Images.xcassets */,
+				67310B831B9A77C60090CD50 /* LaunchScreen.xib */,
+				67310B781B9A77C60090CD50 /* Supporting Files */,
+			);
+			path = "AKM App";
+			sourceTree = "<group>";
+		};
+		67310B781B9A77C60090CD50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67310B791B9A77C60090CD50 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67310B8D1B9A77C70090CD50 /* AKM AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				67310B901B9A77C70090CD50 /* AKM_AppTests.swift */,
+				67310B8E1B9A77C70090CD50 /* Supporting Files */,
+			);
+			path = "AKM AppTests";
+			sourceTree = "<group>";
+		};
+		67310B8E1B9A77C70090CD50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67310B8F1B9A77C70090CD50 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67310B741B9A77C60090CD50 /* AKM App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67310B941B9A77C70090CD50 /* Build configuration list for PBXNativeTarget "AKM App" */;
+			buildPhases = (
+				67310B711B9A77C60090CD50 /* Sources */,
+				67310B721B9A77C60090CD50 /* Frameworks */,
+				67310B731B9A77C60090CD50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AKM App";
+			productName = "AKM App";
+			productReference = 67310B751B9A77C60090CD50 /* AKM App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67310B891B9A77C70090CD50 /* AKM AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67310B971B9A77C70090CD50 /* Build configuration list for PBXNativeTarget "AKM AppTests" */;
+			buildPhases = (
+				67310B861B9A77C70090CD50 /* Sources */,
+				67310B871B9A77C70090CD50 /* Frameworks */,
+				67310B881B9A77C70090CD50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67310B8C1B9A77C70090CD50 /* PBXTargetDependency */,
+			);
+			name = "AKM AppTests";
+			productName = "AKM AppTests";
+			productReference = 67310B8A1B9A77C70090CD50 /* AKM AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67310B6D1B9A77C60090CD50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Elaine Del Rosario";
+				TargetAttributes = {
+					67310B741B9A77C60090CD50 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					67310B891B9A77C70090CD50 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 67310B741B9A77C60090CD50;
+					};
+				};
+			};
+			buildConfigurationList = 67310B701B9A77C60090CD50 /* Build configuration list for PBXProject "AKM App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67310B6C1B9A77C60090CD50;
+			productRefGroup = 67310B761B9A77C60090CD50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67310B741B9A77C60090CD50 /* AKM App */,
+				67310B891B9A77C70090CD50 /* AKM AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67310B731B9A77C60090CD50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67310B801B9A77C60090CD50 /* Main.storyboard in Resources */,
+				67310B851B9A77C60090CD50 /* LaunchScreen.xib in Resources */,
+				67310B821B9A77C60090CD50 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67310B881B9A77C70090CD50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67310B711B9A77C60090CD50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67310B7D1B9A77C60090CD50 /* ViewController.swift in Sources */,
+				67310B7B1B9A77C60090CD50 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67310B861B9A77C70090CD50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67310B911B9A77C70090CD50 /* AKM_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67310B8C1B9A77C70090CD50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67310B741B9A77C60090CD50 /* AKM App */;
+			targetProxy = 67310B8B1B9A77C70090CD50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67310B7E1B9A77C60090CD50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67310B7F1B9A77C60090CD50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67310B831B9A77C60090CD50 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67310B841B9A77C60090CD50 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67310B921B9A77C70090CD50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67310B931B9A77C70090CD50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67310B951B9A77C70090CD50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AKM App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		67310B961B9A77C70090CD50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AKM App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		67310B981B9A77C70090CD50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AKM AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AKM App.app/AKM App";
+			};
+			name = Debug;
+		};
+		67310B991B9A77C70090CD50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AKM AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AKM App.app/AKM App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67310B701B9A77C60090CD50 /* Build configuration list for PBXProject "AKM App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67310B921B9A77C70090CD50 /* Debug */,
+				67310B931B9A77C70090CD50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67310B941B9A77C70090CD50 /* Build configuration list for PBXNativeTarget "AKM App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67310B951B9A77C70090CD50 /* Debug */,
+				67310B961B9A77C70090CD50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		67310B971B9A77C70090CD50 /* Build configuration list for PBXNativeTarget "AKM AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67310B981B9A77C70090CD50 /* Debug */,
+				67310B991B9A77C70090CD50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67310B6D1B9A77C60090CD50 /* Project object */;
+}
