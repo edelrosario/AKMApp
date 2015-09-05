@@ -7,18 +7,18 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>FD4B1CF1-5D8B-4213-9996-2693B48A6B48</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Tutorial</string>
+	<string>playground</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>C939D06E16C54B823956F2712BC8E4716B4605C4</key>
 		<string>https://github.com/edelrosario/AKMApp.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Tutorial.playground</string>
+	<string>Tutorial.playground/playground.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>C939D06E16C54B823956F2712BC8E4716B4605C4</key>
-		<string>..</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/edelrosario/AKMApp.git</string>
